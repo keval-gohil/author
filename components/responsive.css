@@ -64,6 +64,10 @@
       .skill-sec .skill-cat .skill-cat-all{
         width: calc(50% - 1rem);
       }
+      .more-info{
+        margin-left: 2rem;
+        margin-right: 2rem;
+      }
   }
 
 
