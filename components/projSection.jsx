@@ -13,7 +13,7 @@ const Authproj = () => {
             </div>
             <div className="proj-text">
               <b>Kditor -A Code Editor</b>
-              <p>HTML, CSS, Tailwind, JavaScript -ES6, Firebase(BaaS) -Real Time Database</p>
+              <p>HTML, CSS, Tailwind, JavaScript-ES6, Firebase -Real Time Database</p>
             </div>
           </div>
 

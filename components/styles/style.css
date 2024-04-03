@@ -172,18 +172,6 @@
   font-size: 2rem;
   color: #e4e4e7;
 }
-.container {
-	filter: url(#threshold) blur(0.6px);
-}
-
-/* Your average text styling */
-.container .text1, .container .text2 {
-	position: absolute;
-	display: inline-block;
-	font-size: 2rem;
-	text-align: center;
-	user-select: none;
-}
 
 
 .hire-btns .galaxy-btn {
@@ -210,16 +198,6 @@
   box-shadow: inset 0 0 0 .2rem rgba(255, 255, 255, 0.3);
   border-radius: inherit;
   mix-blend-mode: overlay;
-}
-
-.hire-btns .galaxy-btn iframe {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%) scale(1) rotate(15deg);
-  opacity: 0.5;
-  filter: blur(5px);
-  transition: all 0.5s ease-in-out;
 }
 
 .hire-btns .galaxy-btn span {

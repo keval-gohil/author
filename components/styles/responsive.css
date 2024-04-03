@@ -1,4 +1,10 @@
 @media (max-width: 1100px) {
+    .author-header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: #14131a;
+      }
 	.author-section {
         display: flex;
         flex-direction: column;
