@@ -333,7 +333,7 @@
   color: #8b8a91;
 }
 .project-list .proj-row div .proj-text b{
-  color: #c2c2c2;
+  color: #acacac;
   font-size: 1.7rem;
   margin-bottom: .6rem;
 }
@@ -811,7 +811,7 @@
 }
 .info-row .more-github p a{
   text-decoration: none;
-  color: rgba(59,130,246,.7);
+  color: rgba(34,197,94,.8);
 }
 .info-row .more-github p a:hover{
   text-decoration: underline;

@@ -138,3 +138,13 @@
     }
       
   }
+
+
+
+  @media (max-width: 350px){
+    .project-list, .skill-sec, .more-info {
+      margin-left: 1.4rem;
+      margin-right: 1.4rem;
+    }
+    
+  }
