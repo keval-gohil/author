@@ -9,7 +9,7 @@ const Authproj = () => {
           <div className='proj-column'>
             <div className="proj-img-over">
               <img src="./kditor.png" alt="" />
-              <a href="https://kditor.vercel.app/" className="link-text"># kditor.vercel.app</a>
+              <a href="https://kditor.vercel.app/" className="link-text" target='_blank'># kditor.vercel.app</a>
             </div>
             <div className="proj-text">
               <b>Kditor -A Code Editor</b>
@@ -20,7 +20,7 @@ const Authproj = () => {
           <div className='proj-column'>
             <div className="proj-img-over">
               <img src="./komponents.png" alt="" />
-              <a href="#" className="link-text"># komponents.vercel.app</a>
+              <a href="https://komponents.vercel.app/" className="link-text" target='_blank'># komponents.vercel.app</a>
             </div>
             <div className="proj-text">
               <b>Next-Node Comps</b>
@@ -31,7 +31,7 @@ const Authproj = () => {
           <div className='proj-column'>
             <div className="proj-img-over">
               <img src="./wordle.png" alt="" />
-              <a href="#" className="link-text"># wordle-word.vercel.app</a>
+              <a href="https://wordle-word.vercel.app/" className="link-text" target='_blank'># wordle-word.vercel.app</a>
             </div>
             <div className="proj-text">
               <b>Wordle -A Game</b>
@@ -42,7 +42,7 @@ const Authproj = () => {
           <div className='proj-column'>
             <div className="proj-img-over">
               <img src="./stranger.png" alt="" />
-              <a href="#" className="link-text"># iwd.epizy.com/portfolio</a>
+              <a href="http://iwd.epizy.com/portfolio/" className="link-text" target='_blank'># iwd.epizy.com/portfolio</a>
             </div>
             <div className="proj-text">
               <b>Unix Terminal Clone</b>
