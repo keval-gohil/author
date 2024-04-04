@@ -124,17 +124,9 @@
       font-size: 1.3rem;
       margin-right: 2rem;
     }
-    .project-list{
-      margin-left: 1.7rem;
-      margin-right: 1.7rem;
-    }
-    .skill-sec{
-      margin-left: 1.7rem;
-      margin-right: 1.7rem;
-    }
-    .more-info{
-      margin-left: 1.7rem;
-      margin-right: 1.7rem;
+    .project-list, .skill-sec, .more-info {
+      margin-left: 1.6rem;
+      margin-right: 1.6rem;
     }
       
   }
