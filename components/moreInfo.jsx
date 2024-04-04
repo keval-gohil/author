@@ -1,4 +1,5 @@
 import React from 'react'
+import FAQ from './faqDrops'
 
 const MoreInfo = () => {
   return (
@@ -6,7 +7,9 @@ const MoreInfo = () => {
         <div className="more-info">
             <hr className="hr-text" data-content="More Info"></hr>
             <div className="info-row">
-                <div className="info-column">hello</div>
+                <div className="info-column">
+                  <FAQ />
+                </div>
                 <div className="more-github">
                     <i className='uil--github'></i>
                     <h2>GitHub</h2>
