@@ -125,8 +125,8 @@
       margin-right: 2rem;
     }
     .project-list, .skill-sec, .more-info {
-      margin-left: 1.6rem;
-      margin-right: 1.6rem;
+      margin-left: 0;
+      margin-right: 0;
     }
       
   }
