@@ -105,26 +105,36 @@
       margin-left: 2rem;
     }
     .blob-shape-img .blob-bg-cover {
-      height: 12.5rem;
-      width: 12.5rem;
+      height: 12rem;
+      width: 12rem;
     }
     .box-profile .box-profile-name{
-      margin-left: 1.7rem;
+      margin-left: 1.6rem;
     }
     .box-profile .box-profile-name h1{
-      font-size: 3rem;
+      font-size: 2.6rem;
     }
     .box-profile .box-profile-name h2{
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
-    .container .text1, .container .text2 {
-      font-size: 1.5rem;
-   }
+    
   .hire-btns .galaxy-btn {
       padding: 0.85rem 1.5rem;
       padding-bottom: .9rem;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       margin-right: 2rem;
+    }
+    .project-list{
+      margin-left: 1.7rem;
+      margin-right: 1.7rem;
+    }
+    .skill-sec{
+      margin-left: 1.7rem;
+      margin-right: 1.7rem;
+    }
+    .more-info{
+      margin-left: 1.7rem;
+      margin-right: 1.7rem;
     }
       
   }
