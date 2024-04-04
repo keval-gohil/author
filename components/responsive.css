@@ -33,6 +33,34 @@
 
 
   @media (max-width: 800px) {
+    .example-box {
+      height: 17rem;
+    }
+    .blob-shape-img {
+      margin-left: 3rem;
+    }
+    .blob-shape-img .blob-bg-cover {
+      height: 13rem;
+      width: 13rem;
+    }
+    .box-profile .box-profile-name{
+      margin-left: 2rem;
+    }
+    .box-profile .box-profile-name h1{
+      font-size: 3rem;
+    }
+    .box-profile .box-profile-name h2{
+      font-size: 1.5rem;
+    }
+    .container .text1, .container .text2 {
+      font-size: 1.5rem;
+   }
+  .hire-btns .galaxy-btn {
+      padding: 0.85rem 1.5rem;
+      padding-bottom: .9rem;
+      font-size: 1.5rem;
+      margin-right: 3rem;
+    }
     .project-list{
       margin-left: 2rem;
       margin-right: 2rem;
@@ -73,32 +101,6 @@
 
 
   @media (max-width: 500px) {
-    .example-box {
-        height: 17rem;
-      }
-      .blob-shape-img {
-        margin-left: 3rem;
-      }
-      .blob-shape-img .blob-bg-cover {
-        height: 13rem;
-        width: 13rem;
-      }
-      .box-profile .box-profile-name{
-        margin-left: 2rem;
-      }
-      .box-profile .box-profile-name h1{
-        font-size: 3rem;
-      }
-      .box-profile .box-profile-name h2{
-        font-size: 1.5rem;
-      }
-      .container .text1, .container .text2 {
-        font-size: 1.5rem;
-     }
-    .hire-btns .galaxy-btn {
-        padding: 0.85rem 1.5rem;
-        padding-bottom: .9rem;
-        font-size: 1.5rem;
-        margin-right: 3rem;
-      }
+    
+      
   }

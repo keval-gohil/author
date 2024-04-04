@@ -811,7 +811,7 @@
 }
 .info-row .more-github p a{
   text-decoration: none;
-  color: rgba(59,130,246,.8);
+  color: rgba(59,130,246,.7);
 }
 .info-row .more-github p a:hover{
   text-decoration: underline;
