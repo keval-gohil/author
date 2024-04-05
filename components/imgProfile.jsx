@@ -1,4 +1,5 @@
 import React from 'react'
+import ClickMail from './onClickMail'
 
 
 const AuthImgProf = () => {
@@ -14,9 +15,7 @@ const AuthImgProf = () => {
             </div>
           </div>
           <div className='hire-btns'>
-            <button className="galaxy-btn">
-              <span><i className='fluent--person-chat-16-regular'></i>&nbsp;Hire Me!</span>
-            </button>
+            <ClickMail />
           </div>
 
         </div>

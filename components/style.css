@@ -48,7 +48,119 @@
   color: #8b8a91;
   background: #1c1b23;
   border-radius: .5rem;
+  padding: 2rem;
 }
+.left-sec .hr-text {
+  line-height: 1em;
+  font-size: 1.8rem;
+  font-weight: 700;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: left;
+  height: 1.5em;
+  opacity: 1;
+  &:before {
+    content: '';
+    background: linear-gradient(to right, #e4e4e7, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 0.2rem;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: #e4e4e7;
+
+    padding-right: 1rem;
+    line-height: 1.5em;
+    color: #e4e4e7;
+    background-color: #1c1b23;
+  }
+}
+
+.mail-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.mail-container form input,
+.mail-container form textarea,
+.mail-container form button {
+  font-family: inherit;
+  padding: 1rem 1.2rem;
+  border: .2rem solid #8b8a91;
+  font-size: 1.3rem;
+  border-radius: .5rem;
+}
+.mail-container form input,
+.mail-container form textarea{
+  background: transparent;
+  resize: none;
+  margin-top: 1rem;
+  color: #acacac;
+}
+
+.mail-container form button {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  background: #e4e4e7;
+  cursor: pointer;
+  transition: 0.3s
+}
+.mail-container form button:hover{
+  background: #acacac;
+}
+
+.mail-container form .valid-need{
+  background: #ffe0e0;
+  font-size: 1.1rem;
+  margin-top: 0.4rem;
+  padding: .4rem 1.4rem;
+  border-radius: 0.5rem;
+  color: #b71815;
+}
+
+.mail-container form .iconamoon--send-fill {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M3.402 6.673c-.26-2.334 2.143-4.048 4.266-3.042l11.944 5.658c2.288 1.083 2.288 4.339 0 5.422L7.668 20.37c-2.123 1.006-4.525-.708-4.266-3.042L3.882 13H12a1 1 0 1 0 0-2H3.883z' clip-rule='evenodd'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+.mail-container .mail-success{
+  position: absolute;
+  top: 1rem; left: 50%;
+  transform: translate(-50%);
+  background: #ddffdd;
+  padding: 5px 10px;
+}
+.mail-container .mail-failed{
+  position: absolute;
+  top: 1rem; left: 50%;
+  transform: translate(-50%);
+  background: #ffdddd;
+  padding: 5px 10px;
+}
+
+
+
 
 .right-sec {
   height: calc(100vh - 5.5rem);
@@ -210,18 +322,13 @@
   color: white;
   transition: all 0.5s ease-in-out;
 }
-.hire-btns .galaxy-btn span .fluent--person-chat-16-regular {
+.hire-btns .galaxy-btn span .twemoji--letter-e {
   display: inline-block;
-  width: 1.1em;
-  height: 1.1em;
-  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23000' d='m7.603 13.267l-.215.707C4.619 13.729 3 11.84 3 10v-.5A1.5 1.5 0 0 1 4.5 8h4.54c-.39.275-.733.613-1.012 1H4.5a.5.5 0 0 0-.5.5v.5c0 1.338 1.241 2.785 3.484 2.978c.036.098.076.195.119.29M8 1.5A2.75 2.75 0 1 1 8 7a2.75 2.75 0 0 1 0-5.5m0 1A1.75 1.75 0 1 0 8 6a1.75 1.75 0 0 0 0-3.5m7 9a3.5 3.5 0 0 1-5.197 3.062l-1.392.423a.318.318 0 0 1-.397-.397l.424-1.391A3.5 3.5 0 1 1 15 11.5M10.5 10a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm-.5 2.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0-.5.5'/%3E%3C/svg%3E");
-  background-color: currentColor;
-  -webkit-mask-image: var(--svg);
-  mask-image: var(--svg);
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-size: 100% 100%;
-  mask-size: 100% 100%;
+  width: 1em;
+  height: 1em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Cpath fill='%233b88c3' d='M36 32a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4z'/%3E%3Cpath fill='%23fff' d='M12.219 9.621c0-1.55.775-2.697 2.418-2.697h7.689c1.488 0 2.202 1.054 2.202 2.14c0 1.054-.744 2.139-2.202 2.139H16.87v4.527h5.085c1.52 0 2.264 1.054 2.264 2.14c0 1.054-.775 2.139-2.264 2.139H16.87v4.713h5.736c1.488 0 2.201 1.055 2.201 2.14c0 1.055-.744 2.14-2.201 2.14h-7.999c-1.364 0-2.387-.93-2.387-2.325V9.621z'/%3E%3C/svg%3E");
 }
 
 

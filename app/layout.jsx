@@ -20,7 +20,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body className={play.className}>{children}</body>
+      <body className={play.className}>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        {children}
+        </body>
     </html>
   );
 }
