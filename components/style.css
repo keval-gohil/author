@@ -145,7 +145,7 @@
 }
 
 .mail-container .mail-success{
-  position: absolute;
+  position: fixed;
   top: 1rem; left: 50%;
   transform: translate(-50%);
   background: #ddffdd;
@@ -153,7 +153,7 @@
   z-index: 999;
 }
 .mail-container .mail-failed{
-  position: absolute;
+  position: fixed;
   top: 1rem; left: 50%;
   transform: translate(-50%);
   background: #ffdddd;
