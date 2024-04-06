@@ -150,6 +150,7 @@
   transform: translate(-50%);
   background: #ddffdd;
   padding: 5px 10px;
+  z-index: 999;
 }
 .mail-container .mail-failed{
   position: absolute;
@@ -157,6 +158,7 @@
   transform: translate(-50%);
   background: #ffdddd;
   padding: 5px 10px;
+  z-index: 999;
 }
 
 
