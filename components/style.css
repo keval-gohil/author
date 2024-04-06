@@ -107,15 +107,21 @@
   color: #acacac;
 }
 
+.mail-container form input[type=email]:focus, .mail-container form textarea[type=msg]:focus {
+  border: .2rem solid #FFBD44;
+  outline: none;
+}
+
 .mail-container form button {
-  margin-top: 1rem;
+  margin: 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: .5rem;
   background: #e4e4e7;
   cursor: pointer;
-  transition: 0.3s
+  transition: 0.3s;
+  border: none;
 }
 .mail-container form button:hover{
   background: #acacac;
@@ -145,20 +151,35 @@
 }
 
 .mail-container .mail-success{
-  position: absolute;
-  top: 1rem; left: 50%;
-  transform: translate(-50%);
-  background: #ddffdd;
-  padding: 5px 10px;
-  z-index: 999;
+  display: flex;
+  align-items: center;
+  color: #e4e4e7;
+  background: #4caf50;
+  font-size: 1.3rem;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  gap: .2rem;
 }
+.mail-container .mail-success .typcn--tick {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M16.972 6.251a1.999 1.999 0 0 0-2.72.777l-3.713 6.682l-2.125-2.125a2 2 0 1 0-2.828 2.828l4 4c.378.379.888.587 1.414.587l.277-.02a2 2 0 0 0 1.471-1.009l5-9a2 2 0 0 0-.776-2.72'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
 .mail-container .mail-failed{
-  position: absolute;
-  top: 1rem; left: 50%;
-  transform: translate(-50%);
-  background: #ffdddd;
-  padding: 5px 10px;
-  z-index: 999;
+  color: #e4e4e7;
+  background: #f44336;
+  font-size: 1.3rem;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
 }
 
 

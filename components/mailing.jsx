@@ -78,14 +78,14 @@ const FormComponent = () => {
                 <input type="email" id="Email" required placeholder="Enter Your Email*" value={email} onChange={(e) => handleInputChange(e, setEmail)} />
                 <div className="mail-need valid-need" style={{ display: 'none' }}>Enter a valid email address</div>
 
-                <textarea name="message" id="message" required placeholder="Leave Your Message*" value={message} onChange={(e) => handleInputChange(e, setMessage)}></textarea>
+                <textarea type="msg" name="message" id="message" required placeholder="Leave Your Message*" value={message} onChange={(e) => handleInputChange(e, setMessage)}></textarea>
                 <div className="msg-need valid-need" style={{ display: 'none' }}>Enter your message first</div>
 
                 <button type='button' onClick={SendMail}><span className="iconamoon--send-fill"></span> Send Message</button>
             </form>
 
-            {successMessage && <div className="mail-success">Message sent!</div>}
-            {failureMessage && <div className="mail-failed">Message not sent.</div>}
+            {successMessage && <div className="mail-success"><i className='typcn--tick'></i> Message has been sent!</div>}
+            {failureMessage && <div className="mail-failed">Something went wrong!</div>}
         </div>
     );
 };
