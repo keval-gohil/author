@@ -47,41 +47,41 @@ body {
   }
   @media (max-width: 800px) {
 	html{
-		font-size: 51%;
+		font-size: 52%;
 	}
   }
   @media (max-width: 700px) {
 	html{
-		font-size: 48%;
+		font-size: 50%;
 	}
   }
   @media (max-width: 600px) {
 	html{
-		font-size: 46%;
+		font-size: 48%;
 	}
   }
   @media (max-width: 500px) {
 	html{
-		font-size: 43%;
+		font-size: 45%;
 	}
   }
   @media (max-width: 400px) {
 	html{
-		font-size: 40%;
+		font-size: 42%;
 	}
   }
   @media (max-width: 320px) {
 	html{
-		font-size: 36%;
+		font-size: 38%;
 	}
   }
   @media (max-width: 270px) {
 	html{
-		font-size: 30%;
+		font-size: 32%;
 	}
   }  
   @media (max-width: 220px) {
 	html{
-		font-size: 25%;
+		font-size: 27%;
 	}
   }  

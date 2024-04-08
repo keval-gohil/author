@@ -153,8 +153,8 @@
 .mail-container .mail-success{
   display: flex;
   align-items: center;
-  color: #e4e4e7;
-  background: #4caf50;
+  color: #009013;
+  background: #e7fff0;
   font-size: 1.4rem;
   padding: .5rem 1rem;
   border-radius: .5rem;
@@ -175,8 +175,8 @@
 }
 
 .mail-container .mail-failed{
-  color: #e4e4e7;
-  background: #f44336;
+  color: #b71815;
+  background: #ffe0e0;
   font-size: 1.4rem;
   padding: .5rem 1rem;
   border-radius: .5rem;
@@ -211,7 +211,7 @@
   background: linear-gradient(115deg, #0d1117, #89929b);
 }
 .left-sec-2 .social-btn a:nth-child(4){
-  background: linear-gradient(115deg, #009fd9, #e4e4e7);
+  background: linear-gradient(115deg, #009fd9, #e4e4e7c2);
 }
 .left-sec-2 .social-btn a:nth-child(5){
   background: linear-gradient(115deg, #39b54a, #4c754b);
