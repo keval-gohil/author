@@ -75,9 +75,14 @@ body {
 		font-size: 40%;
 	}
   }
-  @media (max-width: 320px) {
+  @media (max-width: 330px) {
 	html{
 		font-size: 38%;
+	}
+  }
+  @media (max-width: 300px) {
+	html{
+		font-size: 36%;
 	}
   }
   @media (max-width: 270px) {
