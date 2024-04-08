@@ -67,7 +67,12 @@ body {
   }
   @media (max-width: 400px) {
 	html{
-		font-size: 42%;
+		font-size: 43%;
+	}
+  }
+  @media (max-width: 350px) {
+	html{
+		font-size: 40%;
 	}
   }
   @media (max-width: 320px) {
