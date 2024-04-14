@@ -43,9 +43,9 @@ const Skills = () => {
                     <div className="all-knows">
                         <p className='HTML'><i className='la--git'></i>GIT</p>
                         <p><i className='ri--seo-line'></i>SEO</p>
+                        <p className='React'><i className='tabler--mail-cog'></i>SMTP</p>
                         <p className='Next'><i className='fluent--eye-lines-48-regular'></i>IO API</p>
                         <p><i className='material-symbols-light--api'></i>RESTful API</p>
-                        <p className='React'><i className='tabler--mail-cog'></i>SMTP</p>
                         <p className='Node'><i className='ep--loading'></i>Lazy Loading</p>
                     </div>
                 </div>
