@@ -143,7 +143,6 @@
   .blob-shape-img .blob-bg-cover {
     height: 12.5rem;
     width: 12.5rem;
-    border: .3rem solid #e4e4e7;
   }
 
   .box-profile .box-profile-name {
@@ -155,7 +154,7 @@
   }
 
   .box-profile .box-profile-name h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .hire-btns .galaxy-btn {
