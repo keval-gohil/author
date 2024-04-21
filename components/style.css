@@ -124,7 +124,7 @@
   border: none;
 }
 .mail-container form button:hover{
-  background: #acacac;
+  opacity: .7;
 }
 
 .mail-container form .valid-need{
@@ -154,7 +154,7 @@
   display: flex;
   align-items: center;
   color: #009013;
-  background: #defcea;
+  background: #e3faec;
   font-size: 1.4rem;
   padding: .5rem 1rem;
   border-radius: .5rem;
