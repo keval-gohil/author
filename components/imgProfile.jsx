@@ -11,7 +11,7 @@ const AuthImgProf = () => {
             <div className="blob-shape-img"><div className="blob-bg-cover"></div></div>
             <div className='box-profile-name'>
               <h1>Keval Gohil</h1>
-              <h2>@Developer</h2>
+              <h2><i className='material-symbols--alternate-email'></i>codeArchitect</h2>
             </div>
           </div>
           <div className='hire-btns'>

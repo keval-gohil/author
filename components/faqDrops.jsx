@@ -69,13 +69,13 @@ const FAQ = () => {
 
       <div className="faq__item">
         <button className="faq__question" aria-expanded="false" aria-controls="answer1">
-            What is Komponents and Kffects UI?
+        Does Komponents have backend elements?
           <i className="faq__icon iconamoon--arrow-right-2"></i>
         </button>
         <div className="faq__answer" id="answer1" aria-hidden="true">
           <div className="faq__answer-inner">
             <p className="faq__answer-text">
-            Komponents is a web app featuring numerous built-in UI components for Next.js and Node.js environments, complemented by the Kffects UI CDN.
+            Yes, Komponents encompass all essential UI elements, including HTML, CSS, JavaScript, React-Next, Node.js, Express, MongoDB, Firebase, etc.
             </p>
           </div>
         </div>

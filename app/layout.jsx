@@ -1,10 +1,10 @@
-import { Play } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const play = Play({ 
+const play = DM_Sans({ 
   subsets: ["latin"], 
   display: 'swap', 
-  weight: ['400', '700'], 
+  weight: ['300','400', '700', '900', '1000'], 
 });
 
 export const metadata = {
