@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 const FormComponent = () => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [sending, setSending] = useState(false);
     const [successMessage, setSuccessMessage] = useState(false);
     const [failureMessage, setFailureMessage] = useState(false);
 
@@ -44,12 +45,15 @@ const FormComponent = () => {
             return;
         }
 
+        // Set sending state to true
+        setSending(true);
+
         // Send mail
         Email.send({
-            SecureToken: "a14feaee-6fc6-4869-ada1-2ce00c74c30e",
-            To: "kg256853@gmail.com",
-            From: "kg256853@gmail.com",
-            Subject: "New Mail From kval.vercel.app",
+            SecureToken: "409c566d-3804-4873-b4b8-2999b8915e0d",
+            To: "k.g256853@gmail.com",
+            From: "k.g256853@gmail.com",
+            Subject: "New Mail From kval app",
             Body: "Email: " + email + "<br/> Message: " + message
         }).then(
             message => {
@@ -58,11 +62,13 @@ const FormComponent = () => {
                     setSuccessMessage(true);
                     setEmail('');
                     setMessage('');
+                    setSending(false); // Reset sending state
                     setTimeout(() => {
                         setSuccessMessage(false);
                     }, 5000);
                 } else {
                     setFailureMessage(true);
+                    setSending(false); // Reset sending state
                     setTimeout(() => {
                         setFailureMessage(false);
                     }, 5000);
@@ -81,7 +87,7 @@ const FormComponent = () => {
                 <textarea type="msg" name="message" id="message" required placeholder="Leave Your Message*" value={message} onChange={(e) => handleInputChange(e, setMessage)}></textarea>
                 <div className="msg-need valid-need" style={{ display: 'none' }}>Enter your message first</div>
 
-                <button type='button' onClick={SendMail}><span className="iconamoon--send-fill"></span> Send Message</button>
+                <button type='button' onClick={SendMail} disabled={sending}>{sending ? 'Sending...' : <><span className="iconamoon--send-fill"></span> Send Message</>}</button>
             </form>
 
             {successMessage && <div className="mail-success"><i className='typcn--tick'></i> Message has been sent!</div>}
