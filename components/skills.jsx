@@ -26,6 +26,7 @@ const Skills = () => {
                         <p className='Next-Auth'><i className='mdi--secure-outline'></i>Next Auth</p>
                         <p><i className='ph--key'></i>Passport Js</p>
                         <p><i className='fa6-brands--php'></i>PHP</p>
+                        <p className='jwt'><i className='logos--jwt-icon'></i>JWT</p>
                     </div>
                 </div>
                 <div className="skill-cat-all">
@@ -46,7 +47,7 @@ const Skills = () => {
                         <p className='React'><i className='tabler--mail-cog'></i>SMTP</p>
                         <p className='Next'><i className='fluent--eye-lines-48-regular'></i>IO API</p>
                         <p><i className='material-symbols-light--api'></i>RESTful API</p>
-                        <p className='Node'><i className='ep--loading'></i>Lazy Loading</p>
+                        <p className='Node'><i className='ep--loading'></i>Loading UI</p>
                     </div>
                 </div>
             </div>

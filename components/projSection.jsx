@@ -12,7 +12,7 @@ const Authproj = () => {
               <a href="https://kditor.vercel.app/" className="link-text" target='_blank'># kditor.vercel.app</a>
             </div>
             <div className="proj-text">
-              <b>Kditor -A Code Editor</b>
+              <b>Kditor - Code Editor</b>
               <p>HTML, CSS, Tailwind, JavaScript-ES6, Firebase -Real Time Database</p>
             </div>
           </div>
@@ -23,30 +23,30 @@ const Authproj = () => {
               <a href="https://komponents.vercel.app/" className="link-text" target='_blank'># komponents.vercel.app</a>
             </div>
             <div className="proj-text">
-              <b>Next-Node Comps</b>
-              <p>Next.js 14, Node, Express, Mongoose, Next Auth, React Hook, Typescript</p>
+              <b>Web Components</b>
+              <p>Next.js 14, Node, Express, MongoDB, Next Auth, React Hook, Typescript</p>
             </div>
           </div>
 
           <div className='proj-column'>
             <div className="proj-img-over">
-              <img src="./wordle.png" alt="" />
-              <a href="https://wordle-word.vercel.app/" className="link-text" target='_blank'># wordle-word.vercel.app</a>
+              <img src="./ecok.png" alt="" />
+              <a href="https://github.com/keval-gohil/eco-k" className="link-text" target='_blank'># github.com/eco-k</a>
             </div>
             <div className="proj-text">
-              <b>Wordle -A Game</b>
-              <p>HTML, CSS, Bootstrap, Tailwind, JavaScript - ES6, Wordnik API</p>
+              <b>Eco-K E-Commerce</b>
+              <p>Next.js 14, Typescript, Boundless-Commerce, Stripe, Webhook</p>
             </div>
           </div>
 
           <div className='proj-column'>
             <div className="proj-img-over">
-              <img src="./stranger.png" alt="" />
-              <a href="http://iwd.epizy.com/portfolio/" className="link-text" target='_blank'># iwd.epizy.com/portfolio</a>
+              <img src="./kk.png" alt="" />
+              <a href="https://github.com/keval-gohil/Kolor-Kode" className="link-text" target='_blank'># github.com/Kolor-Kode</a>
             </div>
             <div className="proj-text">
-              <b>Unix Terminal Clone</b>
-              <p>HTML, CSS, Bootstrap, JavaScript - ES6, Stranger Things theme</p>
+              <b>Kolor Kode</b>
+              <p>Extension - HTML, CSS, JavaScript - ES6, Manifest.json</p>
             </div>
           </div>
         </div>
