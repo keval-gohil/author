@@ -60,12 +60,12 @@ body {
 		font-size: 55%;
 	}
   }
-  /* @media (max-width: 600px) {
+  @media (max-width: 600px) {
 	html{
 		font-size: 54%;
 	}
   }
-  @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
 	html{
 		font-size: 53%;
 	}
