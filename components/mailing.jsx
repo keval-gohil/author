@@ -50,9 +50,9 @@ const FormComponent = () => {
 
         // Send mail
         Email.send({
-            SecureToken: "409c566d-3804-4873-b4b8-2999b8915e0d",
-            To: "k.g256853@gmail.com",
-            From: "k.g256853@gmail.com",
+            SecureToken: "ceaa02f9-d2b3-47ed-ada7-af024a9afa77",
+            To: "kg256853@gmail.com",
+            From: "kg256853@gmail.com",
             Subject: "New Mail From kval app",
             Body: "Email: " + email + "<br/> Message: " + message
         }).then(
