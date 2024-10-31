@@ -77,11 +77,11 @@ body {
 		font-size: 55%;
 	}
   }
-  @media (max-width: 600px) {
+  /* @media (max-width: 600px) {
 	html{
 		font-size: 54%;
 	}
-  }
+  } */
   /* @media (max-width: 500px) {
 	html{
 		font-size: 53%;
@@ -94,26 +94,26 @@ body {
   } */
   @media (max-width: 352px) {
 	html{
-		font-size: 48%;
+		font-size: 50%;
 	}
   }
   @media (max-width: 330px) {
 	html{
-		font-size: 46%;
+		font-size: 48%;
 	}
   }
   @media (max-width: 300px) {
 	html{
-		font-size: 40%;
+		font-size: 42%;
 	}
   }
   @media (max-width: 270px) {
 	html{
-		font-size: 38%;
+		font-size: 40%;
 	}
   }  
   @media (max-width: 220px) {
 	html{
-		font-size: 32%;
+		font-size: 34%;
 	}
   }  
