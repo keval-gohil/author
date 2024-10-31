@@ -60,8 +60,8 @@ const FormComponent = () => {
                 console.log(message);
                 if (message === 'OK') {
                     setSuccessMessage(true);
-                    setEmail('');
-                    setMessage('');
+                    // setEmail('');
+                    // setMessage('');
                     setSending(false); // Reset sending state
                     setTimeout(() => {
                         setSuccessMessage(false);

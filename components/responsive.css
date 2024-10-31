@@ -1,3 +1,18 @@
+@media (max-width: 1250px) {
+  .project-list{
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .skill-sec{
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .more-info{
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
 @media (max-width: 1100px) {
   .author-header {
     position: sticky;
@@ -46,6 +61,20 @@
     height: auto;
     overflow-y: auto;
   }
+
+  .project-list{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .skill-sec{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .more-info{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
   .more-info{
     margin-bottom: 2rem;
   }
@@ -54,7 +83,6 @@
     padding: 1.8rem;
   }
 }
-
 
 
 
@@ -126,6 +154,9 @@
   .skill-sec .skill-cat .skill-cat-all {
     width: calc(50% - 1rem);
   }
+  .skill-sec .skill-cat .skill-cat-all:nth-child(3) {
+    width: calc(100%);
+  }
 
   .more-info {
     margin-left: 2rem;
@@ -133,6 +164,12 @@
   }
 }
 
+
+@media (max-width: 600px) {
+  .skill-cat .skill-cat-all2 .all-knows{
+    padding: 0 .2rem;
+  }
+}
 
 
 @media (max-width: 500px) {
