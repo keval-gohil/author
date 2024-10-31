@@ -1,5 +1,6 @@
 import React from 'react'
 import FAQ from './faqDrops'
+import GlxBtn from './galaxyBtn'
 
 const MoreInfo = () => {
   return (
@@ -11,7 +12,8 @@ const MoreInfo = () => {
                   <FAQ />
                 </div>
                 <div className="more-github">
-                    <i className='uil--github'></i>
+                    {/* <i className='uil--github'></i> */}
+                    <GlxBtn />
                     <h2>GitHub</h2>
                     <p>More Projects on <a href="https://github.com/keval-gohil">github.com/keval-gohil</a></p>
                 </div>
