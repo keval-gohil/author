@@ -10,7 +10,7 @@ const Authproj = () => {
           <div className='proj-column'>
             <div className="proj-text">
               <a href="https://kditor.vercel.app/" target='_blank' className='proj1'><img src="./proj1.png" alt="proj1" /></a>
-              <b>Kditor - Code Editor</b>
+              <b>Kditor -Code Editor</b>
               <p>HTML, CSS, Tailwind, JavaScript-ES6, Firebase -Real Time Database</p>
             </div>
           </div>
@@ -26,7 +26,7 @@ const Authproj = () => {
           <div className='proj-column'>
             <div className="proj-text">
               <a href="https://github.com/keval-gohil/Kolor-Kode/" target='_blank' className='proj3'><img src="./proj3.png" alt="proj3" /></a>
-              <b>Eco-K E-Commerce</b>
+              <b>Eco-K Ecommerce</b>
               <p>Next.js 14, Typescript, Boundless-Commerce, Stripe, Webhook</p>
             </div>
           </div>
