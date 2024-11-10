@@ -1,21 +1,21 @@
-import React from 'react'
-import MainHeader from '@/components/mainHeader'
-import MainSection from '@/components/mainSection';
-import '@/components/style.css'
-import '@/components/responsive.css?var=4.0'
+'use client'
 
+import React from 'react';
+import MainHeader from '@/components/mainHeader';
+import MainSection from '@/components/mainSection';
+import Load from './load'; 
+import '@/components/style.css';
+import '@/components/responsive.css?var=4.1';
 
 const Author = () => {
-  
-  return (
-    <>
-        <div className='author'>
-          <MainHeader />
-          <MainSection />
+  const { isLoading, loadingComponent } = Load(300000);  
 
-        </div>
-    </>
-  )
-}
+  return isLoading ? loadingComponent : (
+    <div className="author">
+      <MainHeader />
+      <MainSection />
+    </div>
+  );
+};
 
-export default Author
+export default Author;
