@@ -124,7 +124,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #f4f4f5;
+  background-color: #e1e1e2;
   transition: .4s;
   border-radius: 4rem;
 }
@@ -139,7 +139,6 @@
   top: 50%;
   transform: translateY(-50%);
   background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
-  ;
   transition: .4s;
 }
 

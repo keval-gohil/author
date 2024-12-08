@@ -16,7 +16,7 @@ const ThemeToggle = () => {
             <label className="switch">
                 <input
                     type="checkbox"
-                    checked={!isDarkTheme}
+                    checked={isDarkTheme}
                     onChange={handleToggle}
                 />
                 <span className="slider"></span>
