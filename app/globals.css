@@ -19,7 +19,7 @@
 
 	/* ------------ Dark Theme end ------------- */
 
-	--glow-card-radius: 1rem;
+	/* --glow-card-radius: 1rem;
 	--glow-card-width: 100%;
 	--glow-border-width: .2rem;
 	--glow-bg-size: 1;
@@ -31,12 +31,12 @@
 	--glow-animation-speed: 4s;
 
 	--glow-interaction-speed: 0.55s;
-	--glow-scale: 1.5;
+	--glow-scale: 1.5; */
 	/* --glow-scale-factor: 1; */
-	--glow-blur: 9;
+	/* --glow-blur: 9;
 	--glow-opacity: 1;
 	--glow-radius: 100;
-	--glow-rotate-unit: 1deg;
+	--glow-rotate-unit: 1deg; */
 
 }
 

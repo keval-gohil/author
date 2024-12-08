@@ -1450,6 +1450,29 @@
 }
 
 
+:root {
+
+  --glow-card-radius: 1rem;
+  --glow-card-width: 100%;
+  --glow-border-width: .2rem;
+  --glow-bg-size: 1;
+
+  --glow-hue: 0;
+  --glow-hue-speed: 1;
+
+  --glow-rotate: 0;
+  --glow-animation-speed: 4s;
+
+  --glow-interaction-speed: 0.55s;
+  --glow-scale: 1.5;
+  /* --glow-scale-factor: 1; */
+  --glow-blur: 9;
+  --glow-opacity: 1;
+  --glow-radius: 100;
+  --glow-rotate-unit: 1deg;
+
+}
+
 .glow-card {
   width: var(--glow-card-width);
   height: 100%;
