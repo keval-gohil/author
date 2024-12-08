@@ -41,47 +41,59 @@ const FAQ = () => {
 
       <div className="faq__item">
         <button className="faq__question" aria-expanded="false" aria-controls="answer1">
-            Who am I?
+          Who am I...
           <i className="faq__icon iconamoon--arrow-right-2"></i>
         </button>
         <div className="faq__answer" id="answer1" aria-hidden="true">
           <div className="faq__answer-inner">
-            <p className="faq__answer-text">
-            In my case, I am a Code Architect shaping the web with user-centric experiences.
-            </p>
+            <div className="faq__answer-text">
+              <ul className="about-me">
+                <li>In my case, I am a Code Architect shaping the web with user-centric experiences.</li>
+                <li>A BCA graduate (Class of 2024), proud to have secured 1st rank, demonstrating my dedication and hard work.</li>
+                <li>A storyteller through video edits, capturing emotions in just a few frames.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="faq__item">
         <button className="faq__question" aria-expanded="false" aria-controls="answer1">
-        What is Kditor? and Why do we use it?
+          About favoritism...
           <i className="faq__icon iconamoon--arrow-right-2"></i>
         </button>
         <div className="faq__answer" id="answer1" aria-hidden="true">
           <div className="faq__answer-inner">
-            <p className="faq__answer-text">
-            Kditor is a real-time code editor built upon Firebase, designed to streamline collaboration among developers, It facilitates seamless collaboration among team members, enabling them to edit code simultaneously.
-            </p>
+            <div className="faq__answer-text">
+              <ul className="about-me">
+                <li>A creative soul with a passion for designing transitions that speak louder than words.</li>
+                <li>An artist at heart, I find joy in sketching, drawing, and exploring visual creativity.</li>
+                <li>Fitness enthusiast, committed to staying active and maintaining balance through workouts.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="faq__item">
         <button className="faq__question" aria-expanded="false" aria-controls="answer1">
-        Does Komponents have backend elements?
+          About work, what I do...
           <i className="faq__icon iconamoon--arrow-right-2"></i>
         </button>
         <div className="faq__answer" id="answer1" aria-hidden="true">
           <div className="faq__answer-inner">
-            <p className="faq__answer-text">
-            Yes, Komponents encompass all essential UI elements, including HTML, CSS, JavaScript, React-Next, Node.js, Express, MongoDB, Firebase, etc.
-            </p>
+            <div className="faq__answer-text">
+              <ul className="about-me">
+                <li>Patiently passionate about patience – a virtue I bring to every project I take on.</li>
+                <li>A perfectionist when it comes to crafting seamless transitions – mic drop moments guaranteed.</li>
+                <li>As a developer and editor, with an unwavering focus on learning and growing, I continue to explore new creative dimensions every day.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
 
-      
+
     </section>
   );
 };
