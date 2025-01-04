@@ -263,7 +263,7 @@
 }
 
 .mail-container form .valid-need {
-  background: #ffe0e0;
+  background: #f9c8c8;
   font-size: 1.2rem;
   margin-top: 0.4rem;
   padding: .4rem 1.4rem;
@@ -289,7 +289,7 @@
   display: flex;
   align-items: center;
   color: #009013;
-  background: #e3faec;
+  background: #dbfde8;
   font-size: 1.4rem;
   padding: .5rem 1rem;
   border-radius: .5rem;
@@ -312,7 +312,7 @@
 
 .mail-container .mail-failed {
   color: #b71815;
-  background: #ffe0e0;
+  background: #f9c8c8;
   font-size: 1.4rem;
   padding: .5rem 1rem;
   border-radius: .5rem;
@@ -341,54 +341,40 @@
 }
 
 .left-sec-2 .social-btn a:nth-child(1) {
-  background: var(--bgColor);
-  color: var(--cardTColor);
-  border: .1rem solid rgba(255, 2, 238, 0.5);
+  background: linear-gradient(45deg, #d6249f, #fd5949, #cec77b);
+  /* Instagram gradient */
+  color: white;
+  border: none;
 }
 
 .left-sec-2 .social-btn a:nth-child(2) {
-  background: var(--bgColor);
-  color: var(--cardTColor);
-  border: .1rem solid rgba(59, 130, 246, .6);
+  background: linear-gradient(45deg, #0072b1, #005582);
+  /* LinkedIn gradient */
+  color: white;
+  border: none;
 }
 
 .left-sec-2 .social-btn a:nth-child(3) {
-  background: var(--bgColor);
-  color: var(--cardTColor);
-  border: .1rem solid var(--glow-text-color);
+  background: linear-gradient(45deg, #333333, #4f4f4f);
+  /* GitHub gradient */
+  color: white;
+  border: none;
 }
 
 .left-sec-2 .social-btn a:nth-child(4) {
-  background: var(--bgColor);
-  color: var(--cardTColor);
-  border: .1rem solid rgba(59, 130, 246, .6);
+  background: linear-gradient(45deg, #1da1f2, #2795e9, #77c9fc);
+  /* Twitter gradient */
+  color: white;
+  border: none;
 }
 
 .left-sec-2 .social-btn a:nth-child(5) {
-  background: var(--bgColor);
-  color: var(--cardTColor);
-  border: .1rem solid rgba(34, 197, 94, .6);
+  background: linear-gradient(45deg, #1dbf73, #14a452);
+  /* Fiverr gradient */
+  color: white;
+  border: none;
 }
 
-.left-sec-2 .social-btn a:nth-child(1):hover {
-  color: rgba(255, 2, 238, 0.6);
-}
-
-.left-sec-2 .social-btn a:nth-child(2):hover {
-  color: rgba(59, 130, 246, 0.7);
-}
-
-.left-sec-2 .social-btn a:nth-child(3):hover {
-  color: var(--titleColor);
-}
-
-.left-sec-2 .social-btn a:nth-child(4):hover {
-  color: rgba(59, 130, 246, 0.7);
-}
-
-.left-sec-2 .social-btn a:nth-child(5):hover {
-  color: rgba(34, 197, 94, 0.7);
-}
 
 .social-btn a .ant-design--instagram-outlined {
   display: inline-block;
@@ -647,7 +633,7 @@
 .box-profile .box-profile-name h1 {
   font-size: 3.4rem;
   color: #fff;
-  font-weight: 1000;
+  font-weight: 700;
 }
 
 .box-profile .box-profile-name svg {
@@ -1531,7 +1517,7 @@
 
   .glow-text {
     /* position: relative; */
-    padding: 3rem 2rem;
+    padding: 3rem 2.7rem;
     width: 100%;
     height: 100%;
     background: var(--glow-card-color);
@@ -1542,7 +1528,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-weight: 800;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 1.4rem;
     color: var(--glow-text-color);
@@ -1811,10 +1797,33 @@
 }
 
 .faq__answer-text ul.about-me {
-  margin: 0 1.6rem;
+  margin: 0 1rem;
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: .7rem;
+}
+
+.faq__answer-text ul.about-me li {
+  position: relative;
+  padding-left: 1.9rem;
+}
+
+.faq__answer-text ul.about-me li::marker {
+  color: transparent;
+  /* Make the default marker invisible */
+}
+
+.faq__answer-text ul.about-me li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 85%;
+  border-top-left-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+  background-color: #00CA4E;
 }
 
 

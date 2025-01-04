@@ -1,10 +1,10 @@
-import { DM_Sans } from "next/font/google";
+import { Rubik } from "next/font/google";
 import "./globals.css";
 
-const play = DM_Sans({
+const play = Rubik({
   subsets: ["latin"],
   display: 'swap',
-  weight: ['300', '400', '700', '900', '1000'],
+  weight: ['300', '400', '700', '900'],
 });
 
 export const metadata = {
