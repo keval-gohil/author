@@ -181,6 +181,10 @@
   overflow: auto;
 }
 
+.left-sec::-webkit-scrollbar {
+  display: none;
+}
+
 .left-sec .hr-text {
   line-height: 1em;
   font-size: 1.8rem;
@@ -246,6 +250,36 @@
   border: .1rem solid #FFBD44;
   outline: none;
 }
+
+.mail-container .file-upload-section {
+  /* background: var(--bgColor); */
+  border-radius: .5rem;
+  padding: .8rem 1rem;
+  margin-top: 1rem;
+  border: .1rem solid var(--cardTColor);
+}
+
+.mail-container .file-upload-section .file-upload-label {
+  cursor: pointer;
+}
+
+.mail-container .file-preview .file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .5rem;
+}
+
+.mail-container .file-preview .file-item:nth-child(1) {
+  margin-top: 1rem;
+}
+
+.mail-container .file-item button {
+  padding: 0rem .5rem;
+  border-radius: 50%;
+  margin: 0;
+}
+
 
 .mail-container form button {
   margin: 1rem 0;
@@ -532,7 +566,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(5px);
 }
 
 .box-profile {
