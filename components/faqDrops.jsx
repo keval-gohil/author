@@ -84,7 +84,7 @@ const FAQ = () => {
           <div className="faq__answer-inner">
             <div className="faq__answer-text">
               <ul className="about-me">
-                <li>Patiently passionate about patience – a virtue I bring to every project I take on.</li>
+                <li>Patiently passionate about patience – a virtue I bring to every project I take on – whether I’m shaping user interfaces or architecting full-stack applications.</li>
                 <li>A perfectionist when it comes to crafting seamless transitions – mic drop moments guaranteed.</li>
                 <li>As a developer and editor, with an unwavering focus on learning and growing, I continue to explore new creative dimensions every day.</li>
               </ul>
