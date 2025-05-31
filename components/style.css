@@ -587,7 +587,7 @@
 .blob-shape-img .blob-bg-cover {
   height: 16rem;
   width: 16rem;
-  background-image: url("~@/public/keval.webp");
+  background-image: url("~@/public/keval.jpg");
   -webkit-animation: liquid 7s ease-in-out infinite;
   animation: liquid 7s ease-in-out infinite;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
