@@ -14,10 +14,10 @@ const Skills = () => {
                             <p className='Bootstrap'><i className='bi--bootstrap'></i>Bootstrap</p>
                             <p><i className='teenyicons--tailwind-outline'></i>Tailwind</p>
                             <p className='JavaScript'><i className='fluent--javascript-16-regular'></i>JavaScript</p>
+                            <p><i className='tabler--brand-typescript'></i>TypeScript</p>
                             <p className='React'><i className='tabler--brand-react'></i>React Js</p>
                             <p className='Next'><i className='teenyicons--nextjs-outline'></i>Next Js</p>
                             <p className='React'><i className='tabler--brand-react'></i>React Native</p>
-                            <p><i className='tabler--brand-typescript'></i>TypeScript</p>
                             <p className='HTML'><i className='la--git'></i>GIT</p>
                             <p><i className='ri--seo-line'></i>SEO</p>
                         </div>
@@ -30,7 +30,7 @@ const Skills = () => {
                             <p className='Firebase'><i className='ri--firebase-line'></i>Firebase</p>
                             <p className='Next-Auth'><i className='mdi--secure-outline'></i>Next Auth</p>
                             <p className='Mongodb'><i className='teenyicons--mongodb-outline'></i>MongoDB</p>
-                            <p className='React'><i className='tabler--mail-cog'></i>Wordpress</p>
+                            <p className='Wordpress'><i className='ic--baseline-wordpress'></i>Wordpress</p>
                             <p><i className='fontisto--mysql'></i>MySql</p>
                             <p><i className='fa6-brands--php'></i>PHP</p>
                             <p className='jwt'><i className='logos--jwt-icon'></i>JWT</p>
