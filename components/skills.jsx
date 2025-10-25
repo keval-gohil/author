@@ -38,7 +38,7 @@ const Skills = () => {
                             <p><i className='tabler--brand-supabase'></i>Supabase</p>
                         </div>
                     </div>
-                    <div className="skill-cat-all skill-cat-all2">
+                    <a href="https://keap.vercel.app/" target='_blank' className="skill-cat-all skill-cat-all2">
                         <div className="all-knows">
                             <div className="glow-card">
                                 <span className="glow-box"></span>
@@ -51,7 +51,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
                 </div>
             </div>

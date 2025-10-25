@@ -825,23 +825,32 @@
   overflow: hidden;
 }
 
-.project-list .proj-row .proj-column img {
+.project-list .proj-row .proj-column .proj1,
+.project-list .proj-row .proj-column .proj2,
+.project-list .proj-row .proj-column .proj3 {
   border: .1rem solid var(--cardTColor);
   border-radius: .5rem;
   padding: .7rem;
-  width: 4.5rem;
-  margin-bottom: 1rem;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
 }
 
-.project-list .proj-row .proj-column .proj1 img:hover {
+.project-list .proj-row .proj-column img {
+  width: 2.95rem;
+  height: 2.95rem;
+}
+
+.project-list .proj-row .proj-column .proj1:hover {
   border: .1rem solid #FF605C;
 }
 
-.project-list .proj-row .proj-column .proj2 img:hover {
+.project-list .proj-row .proj-column .proj2:hover {
   border: .1rem solid #FFBD44;
 }
 
-.project-list .proj-row .proj-column .proj3 img:hover {
+.project-list .proj-row .proj-column .proj3:hover {
   border: .1rem solid #00CA4E;
 }
 
@@ -1416,6 +1425,7 @@
   background: var(--bgColor);
   border-radius: .5rem;
   padding: 0;
+  text-decoration: none;
 }
 
 .skill-cat .skill-cat-all2 .all-knows {
