@@ -153,7 +153,7 @@ const FormComponent = () => {
                 <div className="file-upload-section">
                     <label htmlFor="file-upload" className="file-upload-label">
                         <span className="iconamoon--attachment-fill"></span>
-                        Attach Files (Max 5 files, 50MB total)
+                        Attach Files (Max 5 files, 5MB total)
                     </label>
                     <input
                         id="file-upload"
