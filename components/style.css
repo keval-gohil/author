@@ -85,12 +85,24 @@
   background: #FF605C;
 }
 
+.author-header div.red:hover {
+  border: 5px solid #fac3c2;
+}
+
 .author-header div.yellow {
   background: #FFBD44;
 }
 
+.author-header div.yellow:hover {
+  border: 5px solid #ffeac3;
+}
+
 .author-header div.green {
   background: #00CA4E;
+}
+
+.author-header div.green:hover {
+  border: 5px solid #c3fcd9;
 }
 
 .author-header .themeToggle {
@@ -493,8 +505,10 @@
 
 .example-box {
   width: 100%;
-  height: 20rem;
+  height: 16rem;
   border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -573,6 +587,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  background: linear-gradient(to right, var(--bgColor) 25%, rgba(0, 0, 0, 0));
 }
 
 .blob-shape-img {
@@ -581,7 +596,7 @@
   opacity: 1;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   transition: opacity 0.5s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 0.5s cubic-bezier(0.5, 0, 0, 1) 0.4s;
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
 }
 
 .blob-shape-img .blob-bg-cover {
@@ -702,6 +717,12 @@
   mask-size: 100% 100%;
 }
 
+.flex-sub {
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+}
+
 .animated-heading {
   font-size: 2rem;
   font-weight: bold;
@@ -720,6 +741,20 @@
   transition: all 0.5s ease;
 }
 
+.oui--arrow-down {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23000' fill-rule='non-zero' d='M13.069 5.157L8.384 9.768a.546.546 0 0 1-.768 0L2.93 5.158a.55.55 0 0 0-.771 0a.53.53 0 0 0 0 .759l4.684 4.61a1.65 1.65 0 0 0 2.312 0l4.684-4.61a.53.53 0 0 0 0-.76a.55.55 0 0 0-.771 0'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  /* transform: rotate(180deg); */
+}
 
 .hire-btns .galaxy-btn {
   padding: 0.85rem 1.5rem;
@@ -1956,4 +1991,276 @@
 
 .info-row .more-github p a:hover {
   text-decoration: underline;
+}
+
+.mac-spot {
+  cursor: pointer;
+}
+
+/* real layout: fade only, no shrink, no move */
+.author-window {
+  transition: opacity 0.35s ease;
+}
+
+.author-window.window-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* BLACK SCREEN — used by red, orange, green */
+.window-backdrop {
+  position: fixed;
+  inset: 0;
+  background: #0b0b0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 15;
+  padding: 2rem;
+  animation: fadeIn 0.35s ease;
+}
+
+.backdrop-text {
+  color: #f5f5f5;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* GREEN — talk button */
+.talk-btn {
+  background: #fff;
+  color: #0b0b0f;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.talk-btn:hover {
+  transform: scale(1.05);
+}
+
+
+/* =========================================================
+   CONTACT FORM
+========================================================= */
+
+.mini-contact-form {
+  width: min(360px, 90vw);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  border-radius: 16px;
+  background: #17171c;
+  border: 1px solid #2b2b33;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, .45);
+  cursor: default;
+}
+
+.mini-contact-form h3 {
+  margin: 0 0 6px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.mini-contact-form input,
+.mini-contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  background: #0f0f13;
+  border: 1px solid #2b2b33;
+  border-radius: 10px;
+  color: #fff;
+  font-size: .9rem;
+  outline: none;
+  resize: none;
+  transition: .2s;
+}
+
+.mini-contact-form input:focus,
+.mini-contact-form textarea:focus {
+  border-color: #555;
+}
+
+.mini-contact-form button {
+  height: 46px;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  color: #111;
+  font-weight: 700;
+  font-size: .95rem;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.mini-contact-form button:hover {
+  transform: translateY(-2px);
+}
+
+/* =========================================================
+   MINI WINDOW PARENT CONTAINER & EXTERNAL CONTROLS
+========================================================= */
+
+.mini-window-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* Spacing between utility controls and preview window */
+  z-index: 999;
+  animation: popIn .35s ease;
+}
+
+.mini-window-toolbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2px;
+}
+
+/* Dedicated Drag Handle Design (Positioned cleanly outside) */
+.mini-drag-handle {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(23, 23, 28, 0.8);
+  border: 1px solid #2b2b33;
+  backdrop-filter: blur(10px);
+  color: rgba(255, 255, 255, 0.6);
+  cursor: grab;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.mini-drag-handle:hover {
+  background: #ff5f56;
+  /* Accent color indicator matching device close layouts */
+  border-color: #e0443e;
+  color: #fff;
+}
+
+.mini-drag-handle:active {
+  cursor: grabbing;
+}
+
+/* Restore Action Icon (Positioned cleanly outside) */
+.mini-restore-icon {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #2b2b33;
+  border-radius: 8px;
+  background: rgba(23, 23, 28, 0.8);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.mini-restore-icon:hover {
+  background: rgba(255, 255, 255, .1);
+  border-color: #555;
+}
+
+/* =========================================================
+   THE PREVIEW CONTAINER VIEWPORT
+========================================================= */
+
+.mini-window {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  overflow: hidden;
+  background: #101014;
+  border: 1px solid #2b2b33;
+  border-radius: 14px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, .45);
+  user-select: none;
+  cursor: default;
+}
+
+/* =========================================================
+   INNER PREVIEW
+========================================================= */
+
+.mini-window-inner {
+  flex-shrink: 0;
+  transform-origin: top left;
+  will-change: transform;
+}
+
+/* Disable interactions while preview-only */
+.mini-window-noninteractive {
+  pointer-events: none;
+}
+
+/* =========================================================
+   ANIMATION
+========================================================= */
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* =========================================================
+   RESPONSIVE MEDIA OVERRIDES
+========================================================= */
+
+@media (max-width: 768px) {
+  .mini-contact-form {
+    width: 92vw;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mini-contact-form {
+    width: 94vw;
+    padding: 18px;
+  }
+
+  .mini-contact-form h3 {
+    font-size: .95rem;
+  }
+
+  .mini-contact-form input,
+  .mini-contact-form textarea {
+    font-size: .85rem;
+    padding: 10px 12px;
+  }
+
+  .mini-contact-form button {
+    height: 42px;
+  }
 }

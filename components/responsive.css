@@ -95,11 +95,11 @@
 
 @media (max-width: 800px) {
   .example-box {
-    height: 17rem;
+    height: 13rem;
   }
 
   .blob-shape-img {
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
   }
 
   .blob-shape-img .blob-bg-cover {
@@ -190,13 +190,46 @@
     margin-left: 0rem;
     margin-right: 0rem;
   }
+
+  .flex-sub {
+    gap: 0.1rem;
+  }
+
+  .box-profile .box-profile-name h2 {
+    font-size: 1.1rem;
+  }
+
+  .oui--arrow-down {
+    width: 1.1em;
+    height: 1.1em;
+  }
+
+  .example-box {
+    height: 12rem;
+  }
+
+  .author-header div.red:hover {
+    border: 3.5px solid #fac3c2;
+  }
+
+  .author-header div.yellow:hover {
+    border: 3.5px solid #ffeac3;
+  }
+
+  .author-header div.green:hover {
+    border: 3.5px solid #c3fcd9;
+  }
+
+  .author-header {
+    padding: 0 2rem;
+  }
 }
 
 
 @media (max-width: 500px) {
 
   .blob-shape-img {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
   }
 
   .blob-shape-img .blob-bg-cover {

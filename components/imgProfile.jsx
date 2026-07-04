@@ -92,13 +92,18 @@ const AuthImgProf = () => {
 
           <div className='box-profile-name'>
             <h1>Keval Gohil</h1>
-            <h2 className="animated-heading">
-              <i className="material-symbols--alternate-email"></i>
-              <span className={`animated-text ${isAnimating ? "blur" : ""}`}>
-                {text}
-              </span>
-              Architect
-            </h2>
+            <div className="flex-sub">
+              <h2 className="animated-heading">
+                <i className="material-symbols--alternate-email"></i>
+                <span className={`animated-text ${isAnimating ? "blur" : ""}`}>
+                  {text}
+                </span>
+                Architect
+              </h2>
+              <h2 className="animated-heading">
+                <i className="oui--arrow-down"></i>
+              </h2>
+            </div>
           </div>
         </div>
 
